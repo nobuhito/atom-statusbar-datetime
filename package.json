@@ -1,7 +1,7 @@
 {
   "name": "statusbar-datetime",
   "main": "./lib/statusbar-datetime",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Displays the date and time of the format specified in the status bar.",
   "keywords": [
     "statusbar",
