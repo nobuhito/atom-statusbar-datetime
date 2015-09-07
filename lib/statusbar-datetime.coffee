@@ -18,8 +18,7 @@ module.exports = statusbarDatetime =
   activate: ->
 
   deactivate: ->
-    @statusbarDatetimeView.destroy()
-    @statusBarTile.destroy()
+    @statusBarTile?.destroy()
 
   consumeStatusBar: (statusbar)->
     @statusbarDatetimeView = new StatusbarDatetimeView()
