@@ -10,6 +10,7 @@ module.exports = statusbarDatetime =
       default: 1000
     format:
       type: "string"
+      description: "Please see [moment.js](http://momentjs.com/docs/#/parsing/string-format/) about the form of the date."
       default: "MM/DD(ddd) HH:mm"
     language:
       type: "string"
